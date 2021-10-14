@@ -33,7 +33,7 @@ class Credit {
     }
 }
 
-const credit = new Credit('John')
+const credit = new Credit('John');
 const creditSmall = credit.applyFor(99);
 const creditMedium = credit.applyFor(199);
 const creditLarge = credit.applyFor(99999);

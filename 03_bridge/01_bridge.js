@@ -35,20 +35,20 @@ class Careers extends InterfacePages {
     }
 }
 
-// Вспомогательная иерархия (реализация)
-class DarkTheme { // темная тема оформления
+// Additional Ierarchy
+class DarkTheme {
     getColor() {
         return 'Dark Black'
     }
 }
 
-class LightTheme { // светлая тема
+class LightTheme {
     getColor() {
         return 'Off white'
     }
 }
 
-class AquaTheme { // голубая тема
+class AquaTheme {
     getColor() {
         return 'Light blue'
     }
@@ -58,10 +58,10 @@ class AquaTheme { // голубая тема
 const darkTheme = new DarkTheme()
 const lightTheme = new LightTheme;
 
-const about = new About(darkTheme); // указываем тему при инициации
+const about = new About(darkTheme); // initialization
 const careers = new Careers(darkTheme);
 
-console.log(about.getContent())// "About page in Dark Black"
+console.log(about.getContent()) // "About page in Dark Black"
 console.log(careers.getContent())// "Careers page in Dark Black"
 
 about.setTheme(lightTheme); // динамически меняем темы
