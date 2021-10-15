@@ -1,0 +1,23 @@
+{
+  "name": "5-common-patterns-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiZil/5-common-patterns-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiZil/5-common-patterns-js/issues"
+  },
+  "homepage": "https://github.com/AndriiZil/5-common-patterns-js#readme",
+  "dependencies": {
+    "chai": "4.3.4"
+  }
+}
